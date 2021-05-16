@@ -1,0 +1,11 @@
+---
+ref: az
+name: AZ
+description: AZ integration pack
+keywords:
+  - az
+version: 0.0.1
+author: Ejaz.
+email: ejaz.shaikh@example.com
+python_versions:
+  - "3"

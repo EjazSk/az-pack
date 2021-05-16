@@ -1,0 +1,10 @@
+---
+name: all
+runner_type: python-script
+description: Gets all
+entry_point: all.py
+# parameters:
+#   query:
+#     type: string
+#     description: Search query (e.g. 'search * | head 10')
+#     required: true

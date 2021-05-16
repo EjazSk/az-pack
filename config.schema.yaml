@@ -1,0 +1,6 @@
+---
+base_url:
+  description: "URL of API endpoint"
+  type: "string"
+  secret: false
+  required: true
