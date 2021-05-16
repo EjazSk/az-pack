@@ -13,9 +13,9 @@ class One(Action):
 
         self.id = self.config.get("id")
 
-    def run(self):
+    def run(self, id):
         if self.url:
-            result = requests.get(f"{self.url}/{self.id}").json()
+            result = requests.get(f"{self.url}/{id}").json()
         else:
-            result = requests.get(f"{self.BASE_URL}/{self.id}").json()
+            result = requests.get(f"{self.BASE_URL}/{id}").json()
         return result
