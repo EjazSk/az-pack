@@ -11,7 +11,7 @@ class One(Action):
     def __init__(self, config) -> None:
         super(One, self).__init__(config)
 
-        self.url = self.config.get("id")
+        self.url = self.config.get("base_url")
 
     def run(self, id):
         if self.url:
